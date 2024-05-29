@@ -1,0 +1,80 @@
+.wide-element {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  padding-bottom: 24px;
+}
+
+.text {
+  flex: 1;
+  max-width: 335px;
+}
+
+.text h1 {
+  color: #512314;
+  font-family: "Lilita One", sans-serif;
+  font-size: 64px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.default-btn {
+  background-color: #d91604;
+  color: #fff;
+  font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  padding: 16px 48px;
+  border: none;
+  border-radius: 32px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.image-container {
+  flex: 2;
+  justify-content: right;
+  align-items: center;
+  position: relative;
+}
+
+.default-image {
+  width: 612px;
+  max-width: 612px;
+  height: auto;
+}
+
+@media (max-width: 1200px) {
+  .wide-element {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 32px;
+  }
+
+  .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+  }
+
+  .text h1 {
+    font-size: 48px;
+    text-align: center;
+  }
+
+  .button-container {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .image {
+    display: none;
+  }
+}
