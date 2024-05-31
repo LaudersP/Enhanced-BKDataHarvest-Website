@@ -71,6 +71,12 @@
   color: #d91604;
 }
 
+@media (max-width: 1200px) {
+  .navbar-content {
+    width: 80%;
+  }
+}
+
 @media (max-width: 600px) {
   .left {
     width: auto;
