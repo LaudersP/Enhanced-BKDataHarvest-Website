@@ -1,0 +1,71 @@
+.map-container {
+  position: relative;
+}
+
+.gradient-rect {
+  stroke: #512314; /* Border color */
+  stroke-width: 0.5px; /* Border width */
+}
+
+.scale-values {
+  font-family: "Teachers", sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  fill: #512314;
+}
+
+.scale-label {
+  font-family: "Roboto Slab", serif;
+  font-size: 18px;
+  font-weight: bold;
+  fill: #512314;
+}
+
+.state-info {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: #f5ebdc;
+  width: 185px;
+  height: 90px;
+}
+
+.state-info h2 {
+  font-family: "Lilita One", sans-serif;
+  color: #512314;
+  margin-top: 0;
+}
+
+.state-info p {
+  margin-bottom: 0;
+  color: #512314;
+}
+
+.state-info p span.item-name {
+  font-family: "Roboto Slab", serif;
+  font-size: 18px;
+}
+
+.state-info p span.item-value {
+  font-family: "Teachers", sans-serif;
+  font-size: 18px;
+  margin-left: 5px;
+}
+
+.state-info p.no-state {
+  font-family: "Lilita One", sans-serif;
+  font-size: 24px;
+  text-align: center;
+}
+
+.state-info p.no-data {
+  font-family: "Roboto Slab", serif;
+  font-size: 18px;
+  text-align: center;
+}
+
+.state-info p.item-note {
+  font-family: "Teachers", sans-serif;
+  font-size: 12px;
+  font-size: 0.8em;
+}
