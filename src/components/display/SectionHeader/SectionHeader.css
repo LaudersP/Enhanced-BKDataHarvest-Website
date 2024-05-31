@@ -1,0 +1,27 @@
+.section-header {
+  display: flex;
+  justify-content: flex-start;
+  color: #512314;
+  font-family: inherit;
+  width: 90%;
+  border-top: solid 2px #512314;
+  margin-top: 1.5rem;
+}
+
+.section-header.no-border-top {
+  border-top: none;
+}
+
+.label {
+  display: flex;
+  font-size: 1.25rem;
+  font-family: "Roboto Slab", serif;
+  margin-top: 0px;
+  margin-bottom: 0.5rem;
+}
+
+@media (max-width: 1200px) {
+  .section-header {
+    width: 60%;
+  }
+}

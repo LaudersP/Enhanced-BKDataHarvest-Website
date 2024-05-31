@@ -1,0 +1,24 @@
+.menu-option {
+  display: flex;
+  width: 90%;
+  justify-content: left;
+  text-decoration: none;
+  color: #512314;
+}
+
+.menu-option:hover {
+  cursor: pointer;
+}
+
+.menu-option h3.option-label {
+  font-size: 1rem;
+  font-family: "Teachers", sans-serif;
+  font-weight: 600;
+  margin: 0.125rem;
+}
+
+@media (max-width: 1200px) {
+  .menu-option {
+    width: 60%;
+  }
+}
