@@ -1,0 +1,42 @@
+.menu-page {
+  background-color: #f5ebdc;
+  padding-top: 104px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.menu-page-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  min-height: 83.9vh;
+}
+
+.return-btn {
+  width: 90%;
+  justify-content: left;
+}
+
+.menu-btn {
+  padding: 1rem 1.5rem;
+  font-family: "Lilita One", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 500;
+  margin-top: 1.5rem;
+  border-radius: 32px;
+}
+
+.return-text {
+  color: #fff;
+  text-decoration: none;
+}
+
+@media (max-width: 1200px) {
+  .return-btn {
+    width: 60%;
+  }
+}
