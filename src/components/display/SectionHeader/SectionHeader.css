@@ -4,12 +4,15 @@
   color: #512314;
   font-family: inherit;
   width: 90%;
-  border-top: solid 2px #512314;
   margin-top: 1.5rem;
 }
 
 .section-header.no-border-top {
   border-top: none;
+}
+
+.section-header.border-top {
+  border-top: solid 2px #512314;
 }
 
 .label {
