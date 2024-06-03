@@ -1,0 +1,28 @@
+.data-graphs-page {
+  background-color: #f5ebdc;
+  padding-top: 104px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.data-graphs-page-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  min-height: 83.9vh;
+  margin-bottom: 10px;
+}
+
+.menu-graph {
+  width: 90%;
+}
+
+.empty-message {
+  color: #512314;
+  font-family: "Roboto Slab", serif;
+  font-size: 48px;
+}
