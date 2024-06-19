@@ -1,0 +1,147 @@
+[
+  {
+    "type": "scraper",
+    "label": "Day 1: Initial Commit and Setup",
+    "date": "May 14, 2024",
+    "activities": [
+      {
+        "label": "Initial Commit",
+        "description": "Added the foundational files and directories to the repository."
+      },
+      {
+        "label": "Database Files",
+        "description": "Uploaded initial database schema and tables."
+      },
+      {
+        "label": "Scraping Implementation",
+        "description": "Developed the initial scraping script to collect data from Burger King's API."
+      },
+      {
+        "label": "README Creation",
+        "description": "Drafted and committed README.md, detailing project objectives, setup instructions, and usage guidelines."
+      },
+      {
+        "label": "Code Cleanup",
+        "description": "Removed unnecessary files and ensured code followed the repository standards."
+      }
+    ]
+  },
+  {
+    "type": "scraper",
+    "label": "Day 2: Data Scraping and Code Cleanup",
+    "date": "May 15, 2024",
+    "activities": [
+      {
+        "label": "Menu and Item Scraping",
+        "description": "Expanded the scraping script to include detailed menu and item data."
+      },
+      {
+        "label": "Code Refactoring",
+        "description": "Identified and removed redundant code segments, improving overall efficiency."
+      },
+      {
+        "label": "Error Fixes",
+        "description": "Addressed naming conventions and fixed bugs affecting data retrieval."
+      },
+      {
+        "label": "File Reorganization",
+        "description": "Restructured files and directories for better clarity and maintenance."
+      },
+      {
+        "label": "Database Validation",
+        "description": "Implemented validation checks to ensure data integrity and cleanliness."
+      }
+    ]
+  },
+  {
+    "type": "scraper",
+    "label": "Day 3: Code Optimization and Enhancements",
+    "date": "May 16, 2024",
+    "activities": [
+      {
+        "label": "Optimization",
+        "description": "Simplified complex code sections, enhancing performance and readability."
+      },
+      {
+        "label": "Scraping Enhancements",
+        "description": "Improved scripts to handle dynamic data and edge cases more effectively."
+      },
+      {
+        "label": "Testing",
+        "description": "Conducted rigorous testing to ensure reliability of scraping processes under various conditions."
+      }
+    ]
+  },
+  {
+    "type": "scraper",
+    "label": "Day 4: Graphic Plotting Functions",
+    "date": "May 17, 2024",
+    "activities": [
+      {
+        "label": "Plotting Functions",
+        "description": "Added functionality to generate graphical plots from the collected data."
+      },
+      {
+        "label": "Data Visualization",
+        "description": "Developed initial visual representations of data trends and insights."
+      },
+      {
+        "label": "Function Improvements",
+        "description": "Refined existing functions to better support graphical data output."
+      }
+    ]
+  },
+  {
+    "type": "scraper",
+    "label": "Day 5: JSON Integration",
+    "date": "May 18, 2024",
+    "activities": [
+      {
+        "label": "JSON File Usage",
+        "description": "Modified plotting functions to read data from JSON files."
+      },
+      {
+        "label": "Data Integration",
+        "description": "Ensured seamless integration of JSON data with existing plotting mechanisms."
+      },
+      {
+        "label": "Testing and Debugging",
+        "description": "Verified the accuracy and performance of JSON-based plotting functions."
+      }
+    ]
+  },
+  {
+    "type": "scraper",
+    "label": "Day 6: JSON File Generation and Tracking",
+    "date": "May 29, 2024",
+    "activities": [
+      {
+        "label": "Improved JSON Generation",
+        "description": "Enhanced the script for generating JSON files, making data management more efficient."
+      },
+      {
+        "label": "Comprehensive Tracking",
+        "description": "Implemented tracking for all items, ensuring no data was missed or duplicated."
+      },
+      {
+        "label": "Usage Examples",
+        "description": "Provided clear examples and documentation on how to utilize the data scraping file."
+      },
+      {
+        "label": ".gitignore Update",
+        "description": "Updated the .gitignore file to exclude unnecessary JSON files, keeping the repository clean and relevant."
+      }
+    ]
+  },
+  {
+    "type": "website",
+    "label": "Day 1: Journal Entry",
+    "date": "June 18, 2024",
+    "activities": [
+      {
+        "label": "Journal Entry",
+        "description": "Journal here..."
+      }
+    ]
+  }
+]
