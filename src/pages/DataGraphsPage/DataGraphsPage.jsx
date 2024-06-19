@@ -52,10 +52,9 @@ function DataGraphsPage() {
 
     calculateAveragePrices();
   }, [priceData, checkedItems]);
-  console.log(averagePrices);
 
-  const isAveragePricesEmpty = () => {
-    return Object.values(averagePrices).every((price) => price === null);
+  const areItemsSelected = () => {
+    return Object.values(checkedItems).some((isChecked) => isChecked);
   };
 
   return (
@@ -64,12 +63,12 @@ function DataGraphsPage() {
         <SectionHeader removeTop={true} label="State Graph" />
         {stateData && <BarGraph data={stateData} yLabel="Number of Stores" />}
         <SectionHeader label="Menu Items" />
-        {isAveragePricesEmpty ? (
+        {areItemsSelected() ? (
+          <BarGraph data={averagePrices} yLabel="Average Price (cents)" />
+        ) : (
           <div className="empty-message">
             Please select items from below to view data
           </div>
-        ) : (
-          <BarGraph data={averagePrices} yLabel="Average Price (cents)" />
         )}
         <div className="menu-graph">
           {Object.keys(categories).map((category) => (
