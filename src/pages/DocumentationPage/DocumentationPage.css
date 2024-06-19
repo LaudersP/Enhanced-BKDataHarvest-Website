@@ -1,0 +1,24 @@
+.documentation-page {
+  background-color: #f5ebdc;
+  padding-top: 104px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.documentation-page-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  min-height: 82.8vh;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 1200px) {
+  .documentation-page-content {
+    width: 80%;
+  }
+}
