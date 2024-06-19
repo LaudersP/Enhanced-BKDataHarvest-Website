@@ -6,6 +6,7 @@ import Footer from "./components/display/Footer/Footer";
 import MenuPage from "./pages/MenuPage/MenuPage";
 import HeatMapPage from "./pages/HeatMapPage/HeatMapPage";
 import DataGraphsPage from "./pages/DataGraphsPage/DataGraphsPage";
+import DocumentationPage from "./pages/DocumentationPage/DocumentationPage";
 
 function AppContent({ initialData }) {
   const location = useLocation();
@@ -18,6 +19,7 @@ function AppContent({ initialData }) {
         <Route path="/menu" element={<MenuPage />} />
         <Route path="/heat-map" element={<HeatMapPage />} />
         <Route path="/data-graphs" element={<DataGraphsPage />} />
+        <Route path="/doc" element={<DocumentationPage />} />
       </Routes>
       <Footer />
     </>
