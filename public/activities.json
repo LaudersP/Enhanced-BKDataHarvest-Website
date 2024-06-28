@@ -275,7 +275,7 @@
     "activities": [
       {
         "label": "Page Creation",
-        "description": "Created the JS file to hold the entire documentation page content."
+        "description": "Created the JS file to hold the entire documentation page contents."
       },
       {
         "label": "App.js Update",
@@ -288,6 +288,29 @@
       {
         "label": "File Upload",
         "description": "Added a JSON file to store the journal activity entries in."
+      }
+    ]
+  },
+  {
+    "type": "website",
+    "label": "Day 7: About Page Development",
+    "date": "June 27, 2024",
+    "activities": [
+      {
+        "label": "Page Creation",
+        "description": "Created the JS file to hold the entire about page contents"
+      },
+      {
+        "label": "App.js Update",
+        "description": "Added required routing to the documentation page contents."
+      },
+      {
+        "label": "Bug Fixes",
+        "description": "Fixed a spacing bug overlooked on the about page after branch merge."
+      },
+      {
+        "label": "File Update",
+        "description": "Updated the activites log with todays progress."
       }
     ]
   }
