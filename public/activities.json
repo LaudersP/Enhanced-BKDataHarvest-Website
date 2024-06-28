@@ -135,12 +135,159 @@
   },
   {
     "type": "website",
-    "label": "Day 1: Journal Entry",
-    "date": "June 18, 2024",
+    "label": "Day 1: Initial Commit and Setup",
+    "date": "May 28, 2024",
     "activities": [
       {
-        "label": "Journal Entry",
-        "description": "Journal here..."
+        "label": "File Creation",
+        "description": "Created the starting gitignore and readme file."
+      },
+      {
+        "label": "Project Setup",
+        "description": "Setup the React app."
+      }
+    ]
+  },
+  {
+    "type": "website",
+    "label": "Day 2: Home Page Development",
+    "date": "May 29, 2024",
+    "activities": [
+      {
+        "label": "Page Creation",
+        "description": "Created the JS file to hold the entire home page content."
+      },
+      {
+        "label": "Site-Wide Component Creation",
+        "description": "Created the BannerItem, Banner, Button, Header and Footer components to be used across future pages."
+      },
+      {
+        "label": "Page Component Creation",
+        "description": "Created the WideElement and the NewsElement components."
+      },
+      {
+        "label": "App.js Setup",
+        "description": "Completed app.js with page routes."
+      },
+      {
+        "label": "GITIGNORE Update",
+        "description": "Added ignoring of data.json file."
+      },
+      {
+        "label": "Branch Merge",
+        "description": "Merged this `home-page` branch with `main`."
+      }
+    ]
+  },
+  {
+    "type": "website",
+    "label": "Day 3: Menu Page Development",
+    "date": "May 30, 2024",
+    "activities": [
+      {
+        "label": "Page Creation",
+        "description": "Created the JS file to hold the entire menu page content."
+      },
+      {
+        "label": "App.js Update",
+        "description": "Added required routing to the menu page JS component."
+      },
+      {
+        "label": "Page Component Creation",
+        "description": "Created the SectionHeader and MenuOption components"
+      },
+      {
+        "label": "Bug Fixes",
+        "description": "Fixed a issue preventing the NavBar component from being response to the page width."
+      },
+      {
+        "label": "Branch Merge",
+        "description": "Merged this `menu-page` branch with `main`."
+      }
+    ]
+  },
+  {
+    "type": "website",
+    "label": "Day 4: Heat Map Page Development",
+    "date": "May 31, 2024",
+    "activities": [
+      {
+        "label": "Page Creation",
+        "description": "Created the JS file to hold the entire heat map page content."
+      },
+      {
+        "label": "App.js Update",
+        "description": "Added required routing to the heat map page JS component."
+      },
+      {
+        "label": "Installed Dependencies",
+        "description": "Installed D3 and topojson-client dependencies."
+      },
+      {
+        "label": "Page Component Creation",
+        "description": "Created the CheckBoxItem, CheckBox, DropdownMenu and USAHeatMap components"
+      },
+      {
+        "label": "Branch Merge",
+        "description": "Merged this `heat-map-page` branch with `main`."
+      },
+      {
+        "label": "Bug Fixes",
+        "description": "Fixed a issue preventing the border of the SectionHeader from being toggled off."
+      }
+    ]
+  },
+  {
+    "type": "website",
+    "label": "Day 5: Data Graphs Page Development",
+    "date": "June 3, 2024",
+    "activities": [
+      {
+        "label": "Page Creation",
+        "description": "Created the JS file to hold the entire data graphs page content."
+      },
+      {
+        "label": "App.js Update",
+        "description": "Added required routing to the data graphs pages JS component."
+      },
+      {
+        "label": "Installed Dependencies",
+        "description": "Installed chart and react-chartjs-2 dependencies."
+      },
+      {
+        "label": "Page Component Creation",
+        "description": "Created the BarGraph component."
+      },
+      {
+        "label": "Branch Merge",
+        "description": "Merged this `data-graph-page` branch with `main`."
+      },
+      {
+        "label": "Bug Fixes",
+        "description": "Fixed a issue making the footer too close to page content. Removed no longer used imports from CheckBoxItem and WideElement. Fixed a width styling error in DropdownMenu."
+      }
+    ]
+  },
+  {
+    "type": "website",
+    "label": "Day 6: Documentation Page Development",
+    "date": "June 19, 2024",
+    "activities": [
+      {
+        "label": "Page Creation",
+        "description": "Created the JS file to hold the entire documentation page content."
+      },
+      {
+        "label": "App.js Update",
+        "description": "Added required routing to the documentation page JS component."
+      },
+      {
+        "label": "Page Component Creation",
+        "description": "Created the DocDateEntry component."
+      },
+      {
+        "label": "File Upload",
+        "description": "Added a JSON file to store the journal activity entries in."
       }
     ]
   }
