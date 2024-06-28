@@ -1,0 +1,294 @@
+[
+  {
+    "type": "scraper",
+    "label": "Day 1: Initial Commit and Setup",
+    "date": "May 14, 2024",
+    "activities": [
+      {
+        "label": "Initial Commit",
+        "description": "Added the foundational files and directories to the repository."
+      },
+      {
+        "label": "Database Files",
+        "description": "Uploaded initial database schema and tables."
+      },
+      {
+        "label": "Scraping Implementation",
+        "description": "Developed the initial scraping script to collect data from Burger King's API."
+      },
+      {
+        "label": "README Creation",
+        "description": "Drafted and committed README.md, detailing project objectives, setup instructions, and usage guidelines."
+      },
+      {
+        "label": "Code Cleanup",
+        "description": "Removed unnecessary files and ensured code followed the repository standards."
+      }
+    ]
+  },
+  {
+    "type": "scraper",
+    "label": "Day 2: Data Scraping and Code Cleanup",
+    "date": "May 15, 2024",
+    "activities": [
+      {
+        "label": "Menu and Item Scraping",
+        "description": "Expanded the scraping script to include detailed menu and item data."
+      },
+      {
+        "label": "Code Refactoring",
+        "description": "Identified and removed redundant code segments, improving overall efficiency."
+      },
+      {
+        "label": "Error Fixes",
+        "description": "Addressed naming conventions and fixed bugs affecting data retrieval."
+      },
+      {
+        "label": "File Reorganization",
+        "description": "Restructured files and directories for better clarity and maintenance."
+      },
+      {
+        "label": "Database Validation",
+        "description": "Implemented validation checks to ensure data integrity and cleanliness."
+      }
+    ]
+  },
+  {
+    "type": "scraper",
+    "label": "Day 3: Code Optimization and Enhancements",
+    "date": "May 16, 2024",
+    "activities": [
+      {
+        "label": "Optimization",
+        "description": "Simplified complex code sections, enhancing performance and readability."
+      },
+      {
+        "label": "Scraping Enhancements",
+        "description": "Improved scripts to handle dynamic data and edge cases more effectively."
+      },
+      {
+        "label": "Testing",
+        "description": "Conducted rigorous testing to ensure reliability of scraping processes under various conditions."
+      }
+    ]
+  },
+  {
+    "type": "scraper",
+    "label": "Day 4: Graphic Plotting Functions",
+    "date": "May 17, 2024",
+    "activities": [
+      {
+        "label": "Plotting Functions",
+        "description": "Added functionality to generate graphical plots from the collected data."
+      },
+      {
+        "label": "Data Visualization",
+        "description": "Developed initial visual representations of data trends and insights."
+      },
+      {
+        "label": "Function Improvements",
+        "description": "Refined existing functions to better support graphical data output."
+      }
+    ]
+  },
+  {
+    "type": "scraper",
+    "label": "Day 5: JSON Integration",
+    "date": "May 18, 2024",
+    "activities": [
+      {
+        "label": "JSON File Usage",
+        "description": "Modified plotting functions to read data from JSON files."
+      },
+      {
+        "label": "Data Integration",
+        "description": "Ensured seamless integration of JSON data with existing plotting mechanisms."
+      },
+      {
+        "label": "Testing and Debugging",
+        "description": "Verified the accuracy and performance of JSON-based plotting functions."
+      }
+    ]
+  },
+  {
+    "type": "scraper",
+    "label": "Day 6: JSON File Generation and Tracking",
+    "date": "May 29, 2024",
+    "activities": [
+      {
+        "label": "Improved JSON Generation",
+        "description": "Enhanced the script for generating JSON files, making data management more efficient."
+      },
+      {
+        "label": "Comprehensive Tracking",
+        "description": "Implemented tracking for all items, ensuring no data was missed or duplicated."
+      },
+      {
+        "label": "Usage Examples",
+        "description": "Provided clear examples and documentation on how to utilize the data scraping file."
+      },
+      {
+        "label": ".gitignore Update",
+        "description": "Updated the .gitignore file to exclude unnecessary JSON files, keeping the repository clean and relevant."
+      }
+    ]
+  },
+  {
+    "type": "website",
+    "label": "Day 1: Initial Commit and Setup",
+    "date": "May 28, 2024",
+    "activities": [
+      {
+        "label": "File Creation",
+        "description": "Created the starting gitignore and readme file."
+      },
+      {
+        "label": "Project Setup",
+        "description": "Setup the React app."
+      }
+    ]
+  },
+  {
+    "type": "website",
+    "label": "Day 2: Home Page Development",
+    "date": "May 29, 2024",
+    "activities": [
+      {
+        "label": "Page Creation",
+        "description": "Created the JS file to hold the entire home page content."
+      },
+      {
+        "label": "Site-Wide Component Creation",
+        "description": "Created the BannerItem, Banner, Button, Header and Footer components to be used across future pages."
+      },
+      {
+        "label": "Page Component Creation",
+        "description": "Created the WideElement and the NewsElement components."
+      },
+      {
+        "label": "App.js Setup",
+        "description": "Completed app.js with page routes."
+      },
+      {
+        "label": "GITIGNORE Update",
+        "description": "Added ignoring of data.json file."
+      },
+      {
+        "label": "Branch Merge",
+        "description": "Merged this `home-page` branch with `main`."
+      }
+    ]
+  },
+  {
+    "type": "website",
+    "label": "Day 3: Menu Page Development",
+    "date": "May 30, 2024",
+    "activities": [
+      {
+        "label": "Page Creation",
+        "description": "Created the JS file to hold the entire menu page content."
+      },
+      {
+        "label": "App.js Update",
+        "description": "Added required routing to the menu page JS component."
+      },
+      {
+        "label": "Page Component Creation",
+        "description": "Created the SectionHeader and MenuOption components"
+      },
+      {
+        "label": "Bug Fixes",
+        "description": "Fixed a issue preventing the NavBar component from being response to the page width."
+      },
+      {
+        "label": "Branch Merge",
+        "description": "Merged this `menu-page` branch with `main`."
+      }
+    ]
+  },
+  {
+    "type": "website",
+    "label": "Day 4: Heat Map Page Development",
+    "date": "May 31, 2024",
+    "activities": [
+      {
+        "label": "Page Creation",
+        "description": "Created the JS file to hold the entire heat map page content."
+      },
+      {
+        "label": "App.js Update",
+        "description": "Added required routing to the heat map page JS component."
+      },
+      {
+        "label": "Installed Dependencies",
+        "description": "Installed D3 and topojson-client dependencies."
+      },
+      {
+        "label": "Page Component Creation",
+        "description": "Created the CheckBoxItem, CheckBox, DropdownMenu and USAHeatMap components"
+      },
+      {
+        "label": "Branch Merge",
+        "description": "Merged this `heat-map-page` branch with `main`."
+      },
+      {
+        "label": "Bug Fixes",
+        "description": "Fixed a issue preventing the border of the SectionHeader from being toggled off."
+      }
+    ]
+  },
+  {
+    "type": "website",
+    "label": "Day 5: Data Graphs Page Development",
+    "date": "June 3, 2024",
+    "activities": [
+      {
+        "label": "Page Creation",
+        "description": "Created the JS file to hold the entire data graphs page content."
+      },
+      {
+        "label": "App.js Update",
+        "description": "Added required routing to the data graphs pages JS component."
+      },
+      {
+        "label": "Installed Dependencies",
+        "description": "Installed chart and react-chartjs-2 dependencies."
+      },
+      {
+        "label": "Page Component Creation",
+        "description": "Created the BarGraph component."
+      },
+      {
+        "label": "Branch Merge",
+        "description": "Merged this `data-graph-page` branch with `main`."
+      },
+      {
+        "label": "Bug Fixes",
+        "description": "Fixed a issue making the footer too close to page content. Removed no longer used imports from CheckBoxItem and WideElement. Fixed a width styling error in DropdownMenu."
+      }
+    ]
+  },
+  {
+    "type": "website",
+    "label": "Day 6: Documentation Page Development",
+    "date": "June 19, 2024",
+    "activities": [
+      {
+        "label": "Page Creation",
+        "description": "Created the JS file to hold the entire documentation page content."
+      },
+      {
+        "label": "App.js Update",
+        "description": "Added required routing to the documentation page JS component."
+      },
+      {
+        "label": "Page Component Creation",
+        "description": "Created the DocDateEntry component."
+      },
+      {
+        "label": "File Upload",
+        "description": "Added a JSON file to store the journal activity entries in."
+      }
+    ]
+  }
+]
