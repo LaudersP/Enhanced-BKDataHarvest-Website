@@ -81,13 +81,13 @@ function AboutPage() {
           <p>
             In the end, this project was hand modified and created by
             <a href="https://github.com/LaudersP" target="_blank">
-              {" "}
+              {""}
               Parker Lauders
             </a>
             and then later optimized alongside the help of large language models
             (LLMs) such as
             <a href="https://chat.openai.com/" target="_blank">
-              {" "}
+              {""}
               ChatGPT
             </a>
             to ensure the best performance for the end user.
