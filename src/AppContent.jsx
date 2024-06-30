@@ -9,6 +9,7 @@ import DataGraphsPage from "./pages/DataGraphsPage/DataGraphsPage";
 import DocumentationPage from "./pages/DocumentationPage/DocumentationPage";
 import AboutPage from "./pages/AboutPage/AboutPage";
 import DisclaimerPage from "./pages/DisclaimerPage/DisclaimerPage";
+import ContactMePage from "./pages/ContactMePage/ContactMePage";
 
 function AppContent({ initialData }) {
   const location = useLocation();
@@ -24,6 +25,7 @@ function AppContent({ initialData }) {
         <Route path="/about" element={<AboutPage />} />
         <Route path="/doc" element={<DocumentationPage />} />
         <Route path="/disclaimer" element={<DisclaimerPage />} />
+        <Route path="/contact-me" element={<ContactMePage />} />
       </Routes>
       <Footer />
     </>
