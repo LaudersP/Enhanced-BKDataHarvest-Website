@@ -1,0 +1,77 @@
+.disclaimer-page {
+  background-color: #f5ebdc;
+  padding-top: 104px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.disclaimer-page-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  min-height: 83.9vh;
+  margin-bottom: 10px;
+}
+
+.disclaimer-page-title h1 {
+  color: #512314;
+  font-family: "Roboto Slab", serif;
+  font-size: 36px;
+  border-bottom: 3px solid;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.disclaimer-page-text {
+  width: 100%;
+  align-items: left;
+  color: #512314;
+  font-family: "Teachers", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: justify;
+}
+
+.disclaimer-page-text a {
+  color: #512314;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.disclaimer-page-text ul {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.disclaimer-page-contact-button {
+  display: flex;
+  justify-content: center;
+}
+
+.disclaimer-contact-button {
+  padding: 1rem 1.5rem;
+  font-family: "Lilita One", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 500;
+  margin-top: 1.5rem;
+  border-radius: 32px;
+}
+
+@media (max-width: 1200px) {
+  .disclaimer-page-text {
+    width: 80%;
+    font-size: 24px;
+    word-break: normal;
+  }
+}
+
+@media (max-width: 700px) {
+  .disclaimer-page-text {
+    width: 80%;
+    font-size: 18px;
+  }
+}
