@@ -21,6 +21,16 @@
   width: 90%;
 }
 
+.data-shown {
+  display: flex;
+  justify-content: center;
+  color: #512314;
+  font-family: "Teachers", sans-serif;
+  font-optical-sizing: auto;
+  padding-left: 0.5rem;
+  font-weight: 550;
+}
+
 .empty-message {
   color: #512314;
   font-family: "Roboto Slab", serif;
