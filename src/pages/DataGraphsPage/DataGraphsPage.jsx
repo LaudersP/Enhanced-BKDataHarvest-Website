@@ -64,13 +64,14 @@ function DataGraphsPage() {
         {stateData && <BarGraph data={stateData} yLabel="Number of Stores" />}
         <SectionHeader label="Menu Items" />
         {areItemsSelected() ? (
-          <BarGraph data={averagePrices} yLabel="Average Price (cents)" />
+          <BarGraph data={averagePrices} yLabel="Average Price" />
         ) : (
           <div className="empty-message">
             Please select items from below to view data
           </div>
         )}
         <div className="menu-graph">
+          {areItemsSelected() && <p className="data-shown">*Prices in cents</p>}
           {Object.keys(categories).map((category) => (
             <DropdownMenu key={category} title={category}>
               {categories[category]
