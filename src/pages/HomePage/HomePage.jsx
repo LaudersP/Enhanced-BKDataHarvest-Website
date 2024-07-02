@@ -13,7 +13,7 @@ function HomePage() {
           buttonRoute="/heat-map"
           buttonClass="default-btn"
           imageSrc="/images/USA.png"
-          imageAlt="Test Image"
+          imageAlt="USA Map"
         />
         <div className="home-page-news-content">
           <NewsElement
