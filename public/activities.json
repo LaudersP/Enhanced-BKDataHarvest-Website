@@ -134,6 +134,44 @@
     ]
   },
   {
+    "type": "scraper",
+    "label": "Day 7: Production Preperation",
+    "data": "July 2, 2024",
+    "activities": [
+      {
+        "label": "Branch Merge",
+        "description": "Merged the `data-scraping' branch with `master`  branch."
+      },
+      {
+        "label": "Repository Polishing",
+        "description": "Removed the BKDataHarvest.py, edited the README.md file to better fit the completed files. Added requirements.txt to help users easily install dependencies."
+      },
+      {
+        "label": "BkDataScrape.py Updating",
+        "description": "Changed the functionality and name of the previous `calculate_average_prices` to `generate_json` for website needs."
+      }
+    ]
+  },
+  {
+    "type": "scraper",
+    "label": "Day 8: Production Preperation Cont.",
+    "data": "July 3, 2024",
+    "activities": [
+      {
+        "label": "BkDataScrape.py Updating",
+        "description": "Removed the `update_menu_prices` function due to it being slow and unrequired. Restructured the `generate_json` function to improve it."
+      },
+      {
+        "label": "Example Updating",
+        "description": "Changed the file name to better the user's expirence, removed the calling to the `update_menu_prices` function."
+      },
+      {
+        "label": "README Updated",
+        "description": "Updated the README.md file to remove the `update_menu_prices` function from being listed."
+      }
+    ]
+  },
+  {
     "type": "website",
     "label": "Day 1: Initial Commit and Setup",
     "date": "May 28, 2024",
@@ -298,7 +336,7 @@
     "activities": [
       {
         "label": "Page Creation",
-        "description": "Created the JS file to hold the entire about page contents"
+        "description": "Created the JS file to hold the entire about page contents."
       },
       {
         "label": "App.js Update",
@@ -311,6 +349,52 @@
       {
         "label": "File Update",
         "description": "Updated the activites log with todays progress."
+      }
+    ]
+  },
+  {
+    "type": "website",
+    "label": "Day 8: Production Preperation",
+    "date": "June 30, 2024",
+    "activities": [
+      {
+        "label": "Page Creation I",
+        "description": "Created the JS file to hold the entire about page contents."
+      },
+      {
+        "label": "Page Creation II",
+        "description": "Created the JS file to hold the entire contact me page contents."
+      },
+      {
+        "label": "App.js Update",
+        "description": "Added required routing to the documentation & contact me page contents."
+      },
+      {
+        "label": "Bug Fixes",
+        "description": "Fixed the disclaimer pages styling to remove the scroll bar on the side."
+      }
+    ]
+  },
+  {
+    "type": "website",
+    "label": "Day 9: Production Preperation",
+    "date": "July 2, 2024",
+    "activities": [
+      {
+        "label": "Updated DataGraphsPage.jsx",
+        "description": "Removed \"(cents)\" from the graph axis and added a disclaimer that the price is in cents."
+      },
+      {
+        "label": "Added Menu Option",
+        "description": "Added a link to this websites GitHub repo as a menu option."
+      },
+      {
+        "label": "Image Insertion",
+        "description": "Added the images to the home page news elements."
+      },
+      {
+        "label": "Footer Update",
+        "description": "Shortened the message shown on the footer."
       }
     ]
   }
