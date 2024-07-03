@@ -12,42 +12,42 @@ function HomePage() {
           buttonText="Start Exploring!"
           buttonRoute="/heat-map"
           buttonClass="default-btn"
-          imageSrc="https://blog.wouterkoolen.info/DrosteOperator/test.jpg"
-          imageAlt="Test Image"
+          imageSrc="/images/USA.png"
+          imageAlt="USA Map"
         />
         <div className="home-page-news-content">
           <NewsElement
-            image="https://blog.wouterkoolen.info/DrosteOperator/test.jpg"
-            imageAltText="Test Image"
-            title="Test 1"
-            summary="This is a a very very very very very long short very very short you know summary of the news item."
-            buttonLabel="Read More"
-            route="/news-item-detail-1"
+            image="images/datagraphs.png"
+            imageAltText="Data Graphs Page Screenshot"
+            title="Bar Graphs Page"
+            summary="For those who want a closer look at their meal prices across states!"
+            buttonLabel="View Graphs"
+            route="/data-graphs"
           />
           <NewsElement
-            image="https://blog.wouterkoolen.info/DrosteOperator/test.jpg"
-            imageAltText="Test Image 2"
-            title="Test 2"
-            summary="This is a summary of the news item."
+            image="images/about.png"
+            imageAltText="About Page Screenshot"
+            title="About Page"
+            summary="Learn the story behind the Burger King meal tracker!"
             buttonLabel="Read More"
-            route="/news-item-detail-2"
+            route="/about"
           />
           <NewsElement
-            image="https://blog.wouterkoolen.info/DrosteOperator/test.jpg"
-            imageAltText="Test Image 3"
-            title="Test 3"
-            summary="This is a a very very very very very long short very very short you know summary of the news item."
-            buttonLabel="Read More"
-            route="/news-item-detail-3"
-          />
-          <NewsElement
-            image="https://blog.wouterkoolen.info/DrosteOperator/test.jpg"
-            imageAltText="Test Image 4"
-            title="Test 4"
-            summary="This is a a very very very very very long short very very short you know summary of the news item."
-            buttonLabel="Read More"
-            route="https://github.com/LaudersP"
+            image="/images/github_repo.png"
+            imageAltText="Scraper GitHub Repo Screen Shot"
+            title="Scraper GitHub Repository"
+            summary="Dive into the code: explore the scrapers GitHub repository!"
+            buttonLabel="See Code"
+            route="https://github.com/LaudersP/Enhanced-BKDataHarvest/tree/data-scraping"
             externalLink={true}
+          />
+          <NewsElement
+            image="/images/documentation.png"
+            imageAltText="Documentation Page Screenshot"
+            title="Like Documentation?"
+            summary="Read through the documentation for the scraper and the website here!"
+            buttonLabel="Read More"
+            route="/doc"
           />
         </div>
       </div>

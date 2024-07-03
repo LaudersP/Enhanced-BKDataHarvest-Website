@@ -28,6 +28,11 @@ function Menu() {
           route="https://github.com/LaudersP/Enhanced-BKDataHarvest"
           externalLink={true}
         />
+        <MenuOption
+          label="Enhanced-BKDataHarvest-Website"
+          route="https://github.com/LaudersP/Enhanced-BKDataHarvest-Website"
+          externalLink={true}
+        />
         <SectionHeader label="Legal" />
         <MenuOption label="Disclaimer" route="/disclaimer" />
       </div>
