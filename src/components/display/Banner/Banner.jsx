@@ -9,6 +9,7 @@ function Banner({ data }) {
         year: "numeric",
         month: "long",
         day: "numeric",
+        timeZone: "UTC",
       })
     : "Unable to retrieve data...";
 
