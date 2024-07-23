@@ -1,4 +1,5 @@
 import React from "react";
+import "./BannerItem.css";
 
 function BannerItem({ icon, label, text, id }) {
   return (

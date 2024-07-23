@@ -12,3 +12,13 @@ footer {
   font-family: "Lilita One", sans-serif;
   font-size: 1rem;
 }
+
+@media (max-width: 450px) {
+  footer {
+    height: 4rem;
+  }
+  .footer-text {
+    width: 90%;
+    text-align: center;
+  }
+}

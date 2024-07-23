@@ -22,3 +22,9 @@
     width: 60%;
   }
 }
+
+@media (max-width: 450px) {
+  .menu-option {
+    width: 70%;
+  }
+}

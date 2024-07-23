@@ -1,5 +1,16 @@
 .map-container {
   position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 60%; /* Aspect ratio for the map (1000 / 600 = 5/3 = 60%) */
+}
+
+svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .gradient-rect {
@@ -26,18 +37,18 @@
   bottom: 20px;
   right: 20px;
   background-color: #f5ebdc;
-  width: 185px;
-  height: 90px;
+  padding: 10px;
+  /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); */ /* Remove the box-shadow */
 }
 
 .state-info h2 {
   font-family: "Lilita One", sans-serif;
   color: #512314;
-  margin-top: 0;
+  margin: 0; /* Ensures no extra margin at the top */
 }
 
 .state-info p {
-  margin-bottom: 0;
+  margin: 5px 0 0 0; /* Adjust margins as necessary */
   color: #512314;
 }
 
@@ -68,4 +79,37 @@
   font-family: "Teachers", sans-serif;
   font-size: 12px;
   font-size: 0.8em;
+}
+
+@media (max-width: 450px) {
+  .map-container {
+    margin-bottom: 55px;
+  }
+
+  .state-info {
+    translate: -93px 90px;
+    width: auto;
+    height: auto;
+  }
+
+  .state-info h2 {
+    font-size: 1.2em;
+  }
+
+  .state-info p {
+    font-size: 0.9em;
+  }
+
+  .state-info p span.item-name,
+  .state-info p span.item-value {
+    font-size: 0.9em;
+  }
+
+  .state-info p.no-state {
+    font-size: 1.2em;
+  }
+
+  .state-info p.no-data {
+    font-size: 0.9em;
+  }
 }

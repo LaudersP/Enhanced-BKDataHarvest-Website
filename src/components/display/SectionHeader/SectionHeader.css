@@ -28,3 +28,9 @@
     width: 60%;
   }
 }
+
+@media (max-width: 450px) {
+  .section-header {
+    width: 70%;
+  }
+}

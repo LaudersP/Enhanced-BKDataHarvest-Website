@@ -19,7 +19,23 @@ const BarGraph = ({ data, yLabel }) => {
     ],
   });
 
+  const [fontSize, setFontSize] = useState(20); // Default font size
   const [activeIndex, setActiveIndex] = useState(null);
+
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth < 450) {
+        setFontSize(12);
+      } else {
+        setFontSize(20);
+      }
+    };
+
+    handleResize();
+    window.addEventListener("resize", handleResize);
+
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
 
   useEffect(() => {
     if (data) {
@@ -88,7 +104,7 @@ const BarGraph = ({ data, yLabel }) => {
                 color: "#512314",
                 font: {
                   family: "Roboto Slab, serif",
-                  size: 20,
+                  size: fontSize,
                 },
               },
             },
