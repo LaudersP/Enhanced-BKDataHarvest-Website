@@ -105,3 +105,9 @@
     font-size: 2rem;
   }
 }
+
+@media (max-width: 450px) {
+  .navbar-content {
+    width: 90%;
+  }
+}

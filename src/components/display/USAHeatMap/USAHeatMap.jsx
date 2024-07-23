@@ -9,13 +9,6 @@ const USAHeatMap = ({ dataTypes }) => {
   const [selectedState, setSelectedState] = useState(null); // selected state
 
   useEffect(() => {
-    if (selectedState) {
-      const newState = data.find(
-        (state) => state.properties.name === selectedState.properties.name
-      );
-      setSelectedState(newState);
-    }
-
     // Load the TopoJSON file for the USA
     fetch("https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json")
       .then((response) => response.json())
@@ -74,7 +67,7 @@ const USAHeatMap = ({ dataTypes }) => {
 
   return (
     <div className="map-container">
-      <svg width={1000} height={600}>
+      <svg viewBox="0 0 1000 600" preserveAspectRatio="xMidYMid meet">
         <g transform="translate(175, 0)" className="map">
           {data.map((state, index) => {
             const stateName = state.properties.name;
@@ -131,15 +124,14 @@ const USAHeatMap = ({ dataTypes }) => {
             ).toFixed(2)}
           </text>
         ))}
-        {/* Vertical "Average Price (in Cents)" text */}
         <text
-          x={legendX - 25} // Adjusted to move the text to the left of the scale bar
+          x={legendX - 25}
           y={legendY + legendHeight / 2}
           fontSize={12}
           textAnchor="middle"
           transform={`rotate(-90, ${legendX - 25}, ${
             legendY + legendHeight / 2
-          })`} // Rotate text -90 degrees
+          })`}
           className="scale-label"
         >
           Average Price (in Cents)
@@ -163,7 +155,7 @@ const USAHeatMap = ({ dataTypes }) => {
         </div>
       ) : (
         <div className="state-info">
-          <p className="no-state">Select a state</p>
+          <h2>Select a state</h2>
           <p className="no-state">to view data</p>
         </div>
       )}

@@ -50,3 +50,9 @@
     width: 50%;
   }
 }
+
+@media (max-width: 450px) {
+  .news-element {
+    width: 90%;
+  }
+}

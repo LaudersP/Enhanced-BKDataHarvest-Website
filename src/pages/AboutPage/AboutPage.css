@@ -59,5 +59,22 @@
   .about-page-text {
     width: 80%;
     font-size: 18px;
+    word-break: normal;
+  }
+}
+
+@media (max-width: 450px) {
+  .about-page-text {
+    width: 80%;
+    font-size: 16px;
+    word-break: normal;
+  }
+
+  .about-page-text ul {
+    margin-left: -10px;
+  }
+
+  .about-page-text li {
+    text-align: left;
   }
 }

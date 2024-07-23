@@ -39,3 +39,9 @@
   font-family: "Teachers", sans-serif;
   margin-left: 10px; /* Added a small gap */
 }
+
+@media (max-width: 450px) {
+  .bar-graph-container {
+    width: 90%;
+  }
+}
